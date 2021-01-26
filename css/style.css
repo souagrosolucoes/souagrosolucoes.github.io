@@ -447,6 +447,12 @@ h6 {
   color: #fff;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
