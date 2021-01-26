@@ -45,6 +45,12 @@ h6 {
   padding: 0;
 }
 
+mark {
+  padding: 0;
+  background-color: white;
+  font-weight: bold;
+}
+
 /* Back to top button */
 
 .back-to-top {
