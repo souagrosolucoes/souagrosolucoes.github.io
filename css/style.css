@@ -242,6 +242,28 @@ mark {
   color: #fff;
 }
 
+#intro .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1372,6 +1394,11 @@ mark {
 
   #intro {
     padding: 140px 0 60px 0;
+  }
+
+  #intro .animated {
+    -webkit-animation: none;
+    animation: none;
   }
 
   #intro .intro-img {
